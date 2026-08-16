@@ -1,26 +1,41 @@
-# Ecommerce_sales_Dashboard
-Power Bi Dashboard for Ecommerce sales Analysis
-# Ecommerce_sales_Dashboard
+# Ecommerce Sales Dashboard
 
-## Project Overview
-End-to-end E-Commerce Sales Analysis Project
+## 📊 Project Overview
+This project analyzes a 50,300-row Ecommerce dataset to identify key business insights using SQL for data analysis and Power BI for interactive visualization. The goal is to help stakeholders understand sales performance, customer behavior, and revenue trends.
 
-## Tech Stack
-- **Excel**: Data Cleaning - Removed duplicates, handled missing values
-- **SQL**: Data Analysis - Calculated KPIs, Sales by Category, Gender, Year
-- **Power BI**: Data Visualization - Interactive Dashboard
+## 🛠️ Tools & Technologies Used
+- **SQL**: MySQL Workbench for data querying and KPI calculation
+- **Power BI**: For interactive dashboard and data visualization
+- **Excel**: For initial data cleaning and preparation
+- **GitHub**: For project documentation and version control
 
-## Key Insights from Dashboard
-- **Total Sales**: $2.08M
-- **Total Orders**: 1K  
-- **Average Order Value**: $2.08K
-- **Delivery Rate**: 19%
-- **Top Category**: Electronics - $0.6M
-- **Gender Split**: 53.88% Female, 46.08% Male
-- **Trend**: Sales decreased from 2023 to 2025
+## 📁 Dataset
+- `ecommerce_messy_50300_rows.csv`: Raw dataset
+- `ecommerce_dataset_cleaned2.csv`: Cleaned dataset used for analysis
 
-## Dashboard Preview
-![Dashboard](dashboard.png)
+## 📈 Key Insights from SQL Analysis
+1.  **KPI Summary**: Total Revenue, Total Orders, Total Customers, and Average Order Value
+2.  **Top Performing Categories**: Identified top 5 categories driving maximum revenue
+3.  **Top 5 Cities**: Geographical analysis to find highest revenue-generating cities
+4.  **Monthly Sales Trend**: Revenue trend over time to identify seasonality
+5.  **Regional Performance**: Revenue and Profit breakdown by Region
+6.  **Payment Method Analysis**: Most preferred payment methods by customers
+7.  **Order Status Distribution**: Percentage of Delivered, Cancelled, and Returned orders
 
-## Skills Demonstrated
-Data Cleaning, SQL, Power BI, DAX, Data Modeling, Data Visualization, Business Analysis
+## 📊 Power BI Dashboard
+The interactive dashboard includes:
+- KPI Cards for overall metrics
+- Bar chart for Top Categories and Top Cities
+- Line chart for Monthly Sales Trend
+- Pie chart for Payment Method and Order Status distribution
+- Map/Region wise sales visualization
+
+![Dashboard Screenshot](dashboard.png)
+
+## 🔗 How to Use
+1.  Download `ecommerce_dataset_cleaned2.csv` and import into MySQL
+2.  Run queries from `queries.sql` to reproduce analysis
+3.  Open `ecommerce_project.pbix` in Power BI Desktop to view the dashboard
+
+## 👨‍💻 Author
+**macharlarohithreddy**
